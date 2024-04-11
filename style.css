@@ -1,0 +1,102 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #222;
+}
+
+#container{
+    width: 90%;
+    max-width: 470px;
+    height: 600px;
+    max-height: 600px;
+    color: #222;
+    margin: 200px auto;
+    border-radius: 10px;
+    padding: 40px 35px;
+    text-align: center;
+
+    background: hsla(260, 75%, 95%, 1);
+
+    background: linear-gradient(90deg, hsla(260, 75%, 95%, 1) 0%, hsla(195, 85%, 66%, 1) 50%, hsla(319, 90%, 59%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(260, 75%, 95%, 1) 0%, hsla(195, 85%, 66%, 1) 50%, hsla(319, 90%, 59%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(260, 75%, 95%, 1) 0%, hsla(195, 85%, 66%, 1) 50%, hsla(319, 90%, 59%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F0EAFC", endColorstr="#61CEF2", GradientType=1 );
+}
+
+#textDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#pokemonName{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    border-radius: 10px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+#textDiv button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#textDiv button img{
+    width: 16px;
+}
+
+#pokemonSprite{
+    width: 300px;
+    margin-top: 20px;
+}
+
+#type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: -50px;
+}
+
+#nameOfPokemon{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+    font-weight: 500;
+}
+
+#pokemonType{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -50px;
+}
+
+#type img{
+    width: 55px;
+    visibility: hidden;
+}

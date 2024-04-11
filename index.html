@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon-API</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script  src="index.js"></script>
+</head>
+<body>
+
+    <div id="container">
+        <div id="textDiv">
+            <input type="text" id="pokemonName" placeholder="Enter pokemnon name" onfocus="this.value=''">
+            <button onclick="fetchData()"><img src="img/search.png"></button>
+        </div>
+        <div id="pokemonObject">
+            <img src="" alt="Pokem Sprite" id="pokemonSprite" style="visibility: hidden;"> 
+            <div id="details">
+                <p id="nameOfPokemon"></p>
+                <div id="type">
+                    <img src="" alt="" id="typeSprite">
+                    <p id="pokemonType"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
